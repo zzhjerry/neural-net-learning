@@ -494,10 +494,10 @@ if __name__ == "__main__":
     all_results.append(result)
     
     # Experiment 1.3: Larger learning rate (but not exploding)
-    result = run_experiment(X_train, y_train, X_test, y_test,
-                           hidden_size=128, epochs=10, learning_rate=0.05,
-                           experiment_name="LR = 0.05 (Large)")
-    all_results.append(result)
+    # result = run_experiment(X_train, y_train, X_test, y_test,
+    #                        hidden_size=128, epochs=10, learning_rate=0.05,
+    #                        experiment_name="LR = 0.05 (Large)")
+    # all_results.append(result)
     
     # Compare Set 1
     print("\n📈 Learning Rate Comparison:")
